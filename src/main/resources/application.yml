@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    active: dev
+    
+mybatis:
+  mapperLocations: classpath*:mapper/*.xml
+  typeAliasesPackage: org.gaosung.dao.po
+  config-location: classpath:mybatis-config.xml
